@@ -7,6 +7,9 @@ class HelloTest {
 
     @Test
     internal fun test() {
-        assertThat(true).isFalse
+        val sayHello = Hello().sayHello("World")
+
+        assertThat(sayHello).isEqualTo("Hello World!")
     }
+
 }

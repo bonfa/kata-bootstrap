@@ -1,5 +1,7 @@
 package it.fbonfadelli
 
-class Hello()
+class Hello {
+    fun sayHello(name: String): String = "Hello $name!"
+}
 
 
